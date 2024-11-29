@@ -1,0 +1,591 @@
+﻿<!DOCTYPE html>
+<html lang="es" data-bs-theme="dark">
+    <head>
+
+        <title> practica Bootstrap</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <meta name="description" content="practicas de lab. 2">
+        <meta name="keywords" content="Shooter, cooperar, enfrentarse, refugio, zombies, infectados especiales ">
+        <meta name="author" content="ignacio ronald">
+        <meta name="vieupoth" content="width = device - width, initial - scale = 1.0">
+        <link rel="stylesheet" href="estilos/obje.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Finger+Paint&family=Jacques+Francois+Shadow&family=Jolly+Lodger&family=Lacquer&family=Nosifer&family=Protest+Revolution&family=Rubik+Glitch&display=swap" rel="stylesheet">
+    </head>
+    <body>
+      <header>
+        
+        <nav class="navbar navbar-expand-lg bg-body-tertiary p-8">
+          <div class="container-fluid">
+            <div class=" col-md-12 col-12" id="logo">
+            <a class="navbar-brand" href="#"><img src="gi.gif/left.jpg.gif"></a>
+          </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="beta.html">VOLVER A LA PAGINA INICIO</a>
+                </li>
+                
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle"  role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    CONTENIDO
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="beta.html">|PAGINA INICIO|</a></li>
+                    <li><a class="dropdown-item" href="lore.html">|LORE DEL JUEGO|</a></li>
+                    <li><a class="dropdown-item" href="https://youtu.be/dbOloI6PJyw">|TUTORIAL|</a></li>
+                    <li><a class="dropdown-item" href="objetos.html">|OBJETOS|</a></li>
+                    <li><a class="dropdown-item" href="personajes.html">|PERSONAJES|</a></li>
+                    <li><a class="dropdown-item" href="combosinfe.html">|COMBOS CON INF. Y SUP.|</a></li>
+                    <li><a class="dropdown-item" href="esenariosdejuego.html">|ESENARIOS DE JUEGO|</a></li>
+                    <li><a class="dropdown-item" href="competitivo.html">|EQUIPOS COMPETITIVOS</a></li>
+                    <li><a class="dropdown-item" href="consejos.html">|CONSEJOS|</a></li>
+                    <li><a class="dropdown-item" href="https://youtu.be/s3hoab-abfs?t=39">|COMPETITVO|</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <div style="height: 100px;">
+                  <a class="nav-link"  href="https://w.app/Valve"><img class=" h-25 d-inline-block" style="width: 50px;" src="img/watsapp.webp"></a>
+                </div>
+                </li>
+                <li class="nav-item">
+                  <div style="height: 100px;">
+                  <a class="nav-link"  href="https://www.facebook.com/jorge.mancachi.choque"><img class=" h-25 d-inline-block" style="width: 50px;" src="img/face2.png"></a>
+                </div>
+                </li>
+              </ul>
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+        </nav>
+      
+         
+                 
+                       <!--MENU-->
+                      
+              <section class="col-md-12 col-12 text-center" id="slogan">
+                   
+                    <audio autoplay controls loop>
+                      <source src="audios/Left 4 Dead audio.mp3" type="audio/mpeg">
+                    </audio>
+                    <div class="col-md-12 col-12">
+                    <a><img src="imag/left horizontal 2.jpg" class="img-fluid w-100"></a>
+  
+                  </div>
+              </section>
+          
+          
+              </div> <!-- Fin Row -->
+            
+           
+          </header>
+        
+        
+        <main class="container contenedor text-center"> <!-- Contenedor Principal -->
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="beta.html">VOLVER A LA PAGINA INICIO</a></li>
+            
+            </ol>
+          </nav>
+            <div class="row"> 
+              <h3> OBJETOS DEL JUEGO:</h3>
+              <h8>- CATEGORIA ARMAS PRIMARIAS NIVEL 1 :</h8>
+                <section class="col-md-12 col-12 " id="contenedor-izquierda">
+                    <div class="card p-1 col-md-12 col-12 bg-transparent border border-0" ><!-- inicio Noticia 1 -->
+                      <a ><img src="img/escopetacorredera.webpe.png"></a>
+         <div class="card-body">
+           <h5 class="card-title">LA ESCOPETA CORREDERA</h5>
+
+         <p class="card-text">La escopeta corredera (en inglés, Pump Shotgun) es una de las armas primarias que están disponible para los supervivientes al comienzo de cada capítulo y para aquellos que se han re-generado en un armario después de morir. Es un arma muy eficaz a corta distancia. La difusión de los 8 perdigones en un tiro puede acabar con múltiples infectados a la vez. Esto a menudo hace que sea mejor arma para controlar hordas que la metralleta o las pistolas. La escopeta tiene un alcance máximo efectivo de aproximadamente 40 a 50 metros.</p>
+         <h9>CARACTERISTICAS :</h9>
+         <p class="card-text">La escopeta corredera es un arma principal que consta de 56 balas y 8 ya cargadas dispara 10 perdigones y su daño por perdigon es de 25 puntos, si da todos los perdigones hara un daño de 250 puntos y si vacia las 8 balas en un infectado le hara un daño de 2000 puntos, no es una escopeta automatica.</p>
+  </div>
+                    </div>
+                      <div class="card p-1 col-md-12 col-12 bg-transparent border border-0" ><!-- inicio Noticia 1 -->
+                        <a ><img src="img/escocromada.webp"></a>
+           <div class="card-body">
+             <h5 class="card-title">LA ESCOPETA CROMADA</h5>
+  
+           <p class="card-text">La escopeta cromada (en inglés, Chrome Shotgun) es un arma variante de la escopeta en Left 4 Dead 2. Tiene una concentración de proyectiles, lo que la hace más eficaz para dispararse a medias y largas distancias en comparación con el resto de las escopetas. Su alto daño por disparo y alta penetración contra un infectado también hace que sea una buena arma para el manejo de las hordas. En comparación con la escopeta de corredera, tiene una menor concentración de proyectiles y mayor daño por perdigón, pero tiene menor cantidad de perdigones, dando lugar a una cantidad ligeramente inferior del daño total.</p>
+           <h9>CARACTERISTICAS :</h9>
+           <p class="card-text">La escopeta cromada es un arma principal que consta de 56 balas y 8 ya cargadas dispara 8 perdigones y su daño por perdigon es de 31 puntos, si da todos los perdigones hara un daño de 248 puntos y si vacia las 8 balas en un infectado le hara un daño de 1984 puntos, no es una escopeta automatica.</p>
+    </div>
+                      </div>
+                      <div class="card p-1 col-md-12 col-12 bg-transparent border border-0" ><!-- inicio Noticia 1 -->
+                        <a ><img src="img/metralleta.webp"></a>
+           <div class="card-body">
+             <h5 class="card-title">LA METRALLETA</h5>
+  
+           <p class="card-text">La metralleta (en inglés, Submachine Gun) es una de las armas primarias que están disponible para los supervivientes al comienzo de cada capítulo y para aquellos que se han re-generado en un armario después de morir. Esta arma resulta debil, pero puede causar daño notable y progresivo a causa de la alta velocidad a la que dispara. La metralleta cuenta con cartuchos de 50 balas con un total de 480 balas (650 en Left 4 Dead 2) en la reserva. Tiene una notable precisión, que sobresale en distancias cortas, pero también puede resultar efectiva contra objetivos a medio alcance. A pesar de que se suele sustituir por el rifle de asalto M-16, la taza de fuego resulta ser más alta.</p>
+           <h9>CARACTERISTICAS :</h9>
+           <p class="card-text">La metralleta es un arma principal que consta de 650 balas y 50 ya cargadas su daño por bala es de 20 puntos, si dispara balas seguidas por segundo hace 320 puntos de daño y si vacia las 50 balas en un infectado le hara un daño de 1000 puntos.</p>
+    </div>
+                      </div>
+                      <div class="card p-1 col-md-12 col-12 bg-transparent border border-0" ><!-- inicio Noticia 1 -->
+                        <a ><img src="img/silen.webp"></a>
+           <div class="card-body">
+             <h5 class="card-title">LA METRALLETA CON SILENCIADOR</h5>
+  
+           <p class="card-text">La metralleta silenciada (en inglés, Silenced Submachine Gun) es una de las armas primarias que están disponible para los supervivientes al comienzo de cada capítulo y para aquellos que se han re-generado en un armario después de morir. Esta arma resulta debil, pero puede causar daño notable y progresivo a causa de la alta velocidad a la que dispara. La metralleta cuenta con cartuchos de 50 balas con un total de 480 balas (650 en Left 4 Dead 2) en la reserva. Tiene una notable precisión, que sobresale en distancias cortas, pero también puede resultar efectiva contra objetivos a medio alcance. A pesar de que se suele sustituir por el rifle de asalto M-16, la taza de fuego resulta ser más alta.</p>
+           <h9>CARACTERISTICAS :</h9>
+           <p class="card-text">La metralleta es un arma principal que consta de 650 balas y 50 ya cargadas su daño por bala es de 25 puntos, si dispara balas seguidas por segundo hace 400 puntos de daño y si vacia las 50 balas en un infectado le hara un daño de 1250 puntos.</p>
+    </div>
+                      </div>
+                      <div class="card p-1 col-md-12 col-12 bg-transparent border border-0" ><!-- inicio Noticia 1 -->
+                        <a ><img src="img/MP55.webp"></a>
+           <div class="card-body">
+             <h5 class="card-title">LA MP5</h5>
+  
+           <p class="card-text">La MP5 es un arma tipo subfusil del videojuego de Valve "Counter-Strike: Source" introducida en Left 4 Dead 2 que solo estaba disponible en la versión alemana del juego. No fue sino hasta el 24 de setiembre del 2020 que la MP5 fue introducida en la Last Stand Update.</p>
+           <h9>CARACTERISTICAS :</h9>
+           <p class="card-text">La metralleta es un arma principal que consta de 650 balas y 50 ya cargadas su daño por bala es de 24 puntos, si dispara balas seguidas por segundo hace 320 puntos de daño y si vacia las 50 balas en un infectado le hara un daño de 1200 puntos.</p>
+    </div>
+                      </div>
+                      <h8>CATEGORIA ARMAS PRIMARIAS NIVEL 2 :</h8>
+                      <div class="card p-1 col-md-12 col-12 bg-transparent border border-0" ><!-- inicio Noticia 1 -->
+                        <a ><img src="img/m16.webp"></a>
+           <div class="card-body">
+             <h5 class="card-title">RIFLE DE ASALTO M16</h5>
+  
+           <p class="card-text">El rifle de asalto M16, llamado simplemente rifle de asalto en Left 4 Dead. es un arma primaria de nivel 2 y un buen reemplazo para la metralleta y la metralleta con silenciador, ofreciendo una mejora significativa en la capacidad del jugador para impactar objetivos e infligir daños. Cuenta con un cartucho de 50 tiros de asalto con 360 tiros en reserva. El rifle de asalto es, sin duda, una de las mejores opciones como arma de fuego de uso general debido a su precisión equilibrada, daño potencial y su adaptabilidad.</p>
+           <h9>CARACTERISTICAS :</h9>
+           <p class="card-text">El rifle m16 cuenta con una municion de 360 balas de las cuales hay 50 en el cargador su daño por bala es de 33 puntos, su daño por segundo es de 376.2 puntos de daño y su daño por gastar un cargador en un infectado es de 1650 puntos de daño.</p>
+    </div>
+                      </div>
+                      <div class="card p-1 col-md-12 col-12 bg-transparent border border-0" ><!-- inicio Noticia 1 -->
+                        <a ><img src="img/scar.webp"></a>
+           <div class="card-body">
+             <h5 class="card-title">RIFLE DE ASALTO SCAR</h5>
+  
+           <p class="card-text">Es capaz de disparar hasta una ráfaga de 3 balas por disparo, pero tiene un alcance de fuego algo limitado. Posee un cargador de 60 balas y su reserva es de 360 balas, a igual que el subfusil con silenciador su lampara esta atada con unos pequeños cables.</p>
+           <h9>CARACTERISTICAS :</h9>
+           <p class="card-text">El rifle scar cuenta con una municion de 360 balas de las cuales hay 60 en el cargador su daño por bala es de 44 puntos, su daño por segundo es de 368.4 puntos de daño y su daño por gastar un cargador en un infectado es de 1880 puntos de daño.</p>
+    </div>
+                      </div>
+                      <div class="card p-1 col-md-12 col-12 bg-transparent border border-0" ><!-- inicio Noticia 1 -->
+                        <a ><img src="img/ak.webp"></a>
+           <div class="card-body">
+             <h5 class="card-title">RIFLE DE ASALTO AK47</h5>
+  
+           <p class="card-text">El Avtomat Kalashnikova (del ruso Автомат Калашникова) o más conocido por el acrónimo AK-47 es un fusil de asalto soviético en el Left 4 Dead 2. Posee un cargador de 40 balas (más pequeños que el de los demás rifles de asalto) y podemos llevar hasta 360 balas de reserva. Su poder de fuego es el más alto para un arma de su tipo, pero también es la mas imprecisa a largas distancias.</p>
+           <h9>CARACTERISTICAS :</h9>
+           <p class="card-text">El rifle ak47 cuenta con una municion de 360 balas de las cuales hay 40 en el cargador su daño por bala es de 58 puntos, su daño por segundo es de 446 puntos de daño y su daño por gastar un cargador en un infectado es de 2324 puntos de daño.</p>
+    </div>
+                      </div>
+                      <div class="card p-1 col-md-12 col-12 bg-transparent border border-0" ><!-- inicio Noticia 1 -->
+                        <a ><img src="imag/lo que no tiene fondo.jpg"></a>
+           <div class="card-body">
+             <h5 class="card-title">SG 552</h5>
+  
+           <p class="card-text">El rifle SG 552 es un arma que iba a aparecer normalmente en Left 4 Dead 2, pero que por varios motivos Valve tuvo que lanzarlo normalmente sólo la versión alemana del juego. Existe en las otras versiones pero sólo puede verse con comandos de consola, pero que despues de una actualizacion se puede ser de manera global.</p>
+           <h9>CARACTERISTICAS :</h9>
+           <p class="card-text">El rifle sg 552 cuenta con una municion de 360 balas de las cuales hay 50 en el cargador su daño por bala es de 33 puntos, su daño por segundo es de 376 - 244 puntos de daño y su daño por gastar un cargador en un infectado es de 1650 puntos de daño.</p>
+    </div>
+                      </div>
+
+
+                      <div class="card p-1 col-md-12 col-12 bg-transparent border border-0" ><!-- inicio Noticia 1 -->
+                        <a ><img src="img/escoauto.webp"></a>
+           <div class="card-body">
+             <h5 class="card-title">LA ESCOPETA AUTOMATICA</h5>
+  
+           <p class="card-text">La escopeta automática, llamada escopeta táctica en Left 4 Dead 2. es un arma primaria de Nivel 2 y es un buen sustituto para la escopeta corredera y la escopeta cromada ya que no requiere ser bombeada después de cada disparo. También tiene una velocidad de disparo ligeramente mayor que la escopeta de combate a quemarropa. Cuenta con un cargador de 10 cartuchos de escopeta, con 128 en reserva (90 en Left 4 Dead 2). Es la mejor arma de corto alcance, capaz de disparar muy rápido y acabar con un gran número de infectados por disparo.</p>
+           <h9>CARACTERISTICAS :</h9>
+           <p class="card-text">La escopeta automatica es un arma principal que consta de 90 balas y 10 ya cargadas dispara 11 perdigones y su daño por perdigon es de 23 puntos, si da todos los perdigones hara un daño de 253 puntos y si vacia las 10 balas en un infectado le hara un daño de 2530 puntos, es una escopeta automatica.</p>
+    </div>
+                      </div>
+                      <div class="card p-1 col-md-12 col-12 bg-transparent border border-0" ><!-- inicio Noticia 1 -->
+                        <a ><img src="img/spas.webp"></a>
+           <div class="card-body">
+             <h5 class="card-title">LA ESCOPETA SPAS</h5>
+  
+           <p class="card-text">La escopeta de combate (En inglés, Combat Shotgun) es una escopeta semiautomática que aparece en Left 4 Dead 2. Es una más rápida que la tradicional y es algo más precisa, pero su tiempo de recarga es un poco más prolongada.</p>
+           <h9>CARACTERISTICAS :</h9>
+           <p class="card-text">La escopeta spas es un arma principal que consta de 90 balas y 8 ya cargadas dispara 9 perdigones y su daño por perdigon es de 28 puntos, si da todos los perdigones hara un daño de 252 puntos y si vacia las 8 balas en un infectado le hara un daño de 2520 puntos, es una escopeta automatica.</p>
+    </div>
+                      </div>
+                      <div class="card p-1 col-md-12 col-12 bg-transparent border border-0" ><!-- inicio Noticia 1 -->
+                        <a ><img src="img/caza.webp"></a>
+           <div class="card-body">
+             <h5 class="card-title">EL RIFLE DE CAZA</h5>
+  
+           <p class="card-text">El rifle de caza es el arma más precisa en Left 4 Dead y Left 4 Dead 2, es un arma primaria de nivel 2. Es un rifle semi-automático con una mira de precisión. Este rifle es muy precisa cuando se utiliza sin importar la distancia, sin embargo al más mínimo movimiento de su usuario pierde precisión considerablemente.</p>
+           <h9>CARACTERISTICAS :</h9>
+           <p class="card-text">El rifle de caza es un arma principal, cuenta con una municion de 150 balas de las cuales hay 15 en el cargador su daño por bala es de 90 puntos, su daño por segundo es de 360 puntos de daño y su daño por gastar un cargador en un infectado es de 1350 puntos de daño.</p>
+    </div>
+                      </div>
+                      <div class="card p-1 col-md-12 col-12 bg-transparent border border-0" ><!-- inicio Noticia 1 -->
+                        <a ><img src="img/franco.webp"></a>
+           <div class="card-body">
+             <h5 class="card-title">EL RIFLE FRANCOTIRADOR</h5>
+  
+           <p class="card-text">Rifle de gran precisión y de largo alcance, tiene un gran poder de fuego, que puede aniquilar a un infectado desde una gran distancia.</p>
+           <h9>CARACTERISTICAS :</h9>
+           <p class="card-text">El rifle de francotirador es un arma principal, cuenta con una municion de 180 balas de las cuales hay 30 en el cargador su daño por bala es de 90 puntos, su daño por segundo es de 360 puntos de daño y su daño por gastar un cargador en un infectado es de 2700 puntos de daño.</p>
+    </div>
+                      </div>
+                      <div class="card p-1 col-md-12 col-12 bg-transparent border border-0" ><!-- inicio Noticia 1 -->
+                        <a ><img src="img/awp.webp"></a>
+           <div class="card-body">
+             <h5 class="card-title">EL RIFLE AWP</h5>
+  
+           <p class="card-text">El francotirador AWP es un arma del videojuego también de Valve "Counter-Strike: Source" que aparecería en Left 4 Dead 2 pero que por varios motivos Valve tuvo que sacarlo normalmente para la versión alemana del juego.</p>
+           <h9>CARACTERISTICAS :</h9>
+           <p class="card-text">El rifle awp es un arma principal, cuenta con una municion de 180 balas de las cuales hay 20 en el cargador su daño por bala es de 115 puntos, su daño por segundo es de 110 puntos de daño y su daño por gastar un cargador en un infectado es de 2300 puntos de daño.</p>
+    </div>
+                      </div>
+
+                      <div class="card p-1 col-md-12 col-12 bg-transparent border border-0" ><!-- inicio Noticia 1 -->
+                        <a ><img src="img/nomesi.webp"></a>
+           <div class="card-body">
+             <h5 class="card-title">EL RIFLE SCOUT</h5>
+  
+           <p class="card-text">El Steyr Scout es un rifle de francotirador de cerrojo disponible originalmente solo para la versión alemana de Left 4 Dead 2, siendo agregada al juego vanilla tras la actualización de The Last Stand. La capacidad del cargador, la precisión y el daño son muy similares a los del rifle de caza , pero la velocidad de disparo es significativamente menor. En combinación con una mira láser , esta arma tiene una precisión extremadamente alta incluso cuando el Superviviente está corriendo. A pesar de esto, muchos jugadores afirman que podría decirse que es mejor elegir un rifle de francotirador o un rifle de caza, ya que tienen una cadencia de tiro mucho mayor.</p>
+           <h9>CARACTERISTICAS :</h9>
+           <p class="card-text">El rifle scout es un arma principal, cuenta con una municion de 150 balas de las cuales hay 15 en el cargador su daño por bala es de 105 puntos, su daño por segundo es de 100 puntos de daño y su daño por gastar un cargador en un infectado es de 1350 puntos de daño.</p>
+    </div>
+                      </div>
+                      <h8>- CATEGORIA ARMAS PRIMARIAS ESPECIALES :</h8>
+                      <div class="card p-1 col-md-12 col-12 bg-transparent border border-0" ><!-- inicio Noticia 1 -->
+                        <a ><img src="img/lanza.webp"></a>
+           <div class="card-body">
+             <h5 class="card-title">
+              EL LANZAGRANADAS</h5>
+  
+           <p class="card-text">El lanzagranadas (Grenade Launcher en inglés), es un arma principal que hizo debut en Left 4 Dead 2. Un arma de un solo tiro, lanza un proyectil explosivo de baja velocidad (granada) con un efecto de explosión que mata infectados y también infectados especiales en sus inmediaciones. Cualquier infectado que no recibe asesinado por la explosión será herido y desorientado (topado) pero los Charger y los Tank son inmunes a este efecto de tropiezo. Tiene un diseño de rotura abierta, el lanzagranadas sólo puede contener un proyectil en un momento y tiene un tiempo de recarga largo. Tiene una mira en el cañón del arma que permanece de forma permanente y no juegan ningún papel en su funcionamiento, los jugadores deben buscar un objetivo distante deben utilizar juicio uso y conjeturas al "caminar" sobre el blanco que causara un alto retroceso de esta arma. Sin embargo, ya que su precisión es idéntica a la del rifle de francotirador cuando está parado, en teoría, el único que se requiere para una precisión milimétrica es rango de estimación del jugador del arqueo 40mm HE granada.</p>
+           <h9>CARACTERISTICAS :</h9>
+           <p class="card-text">Es un arma primaria donde su municion es explosiva consta de 30 balas que no son recargables una vez que se agotan tiene un daño por disparo de 400 puntos, donde solo sale una municion.</p>
+    </div>
+                      </div>
+                      <div class="card p-1 col-md-12 col-12 bg-transparent border border-0" ><!-- inicio Noticia 1 -->
+                        <a ><img src="img/m16.webp"></a>
+           <div class="card-body">
+             <h5 class="card-title">LA METRALLETA M60</h5>
+  
+           <p class="card-text">La M60 es una arma de nivel de especial que fue introducida en Left 4 Dead 2. Lleva 150 balas de munición, y después de que se acabe la munición, se deja caer, entonces el superviviente vuelve a tener su arma secundaria, al igual que el lanzagranadas. Funcionalmente, esta arma puede funcionar como arma variante del rifle de asalto M-16. Posee una versión montada, esta posee munición infinita y se sobrecalienta si la usas muy seguido, aunque ésta al estar montada no se puede usar libremente. Esta ametralladora se introdujo en la expansión.</p>
+           <h9>CARACTERISTICAS :</h9>
+           <p class="card-text">La m60 es un arma principal, cuenta con una municion de 150 balas de las cuales hay 150 son el cargador su daño por bala es de 50 puntos, su daño por segundo es de 454.4 puntos de daño y su daño por gastar un cargador en un infectado es de 7500 puntos de daño. Al igual que el lanzagranas no se puede recargar un avez se agote ya que el personaje la botara por defecto.</p>
+    </div>
+                      </div>
+<h8>- CATEGORIA ARMAS SECUNDARIAS:</h8>
+                      <div class="card p-1 col-md-12 col-12 bg-transparent border border-0" ><!-- inicio Noticia 1 -->
+                        <a ><img src="img/pistolam1911.webp"></a>
+           <div class="card-body">
+             <h5 class="card-title">LA PISTOLA M1911</h5>
+  
+           <p class="card-text">La Pistola M1911 es el Arma Secundaria de los Supervivientes de Left 4 Dead. También es la única arma que pueden utilizar mientras están incapacitados, aunque con un ritmo más lento de fuego y una gran disminución de precisión. Una de sus capacidades más notables es la de poseer munición infinita. Al recoger una segunda pistola se puede utilizar en conjunto a dos manos, generalmente aparece una segunda pistola en el primer nivel de cada Campaña. La M1911 fue sucedida por la Pistola P220 en Left 4 Dead 2.</p>
+           <h9>CARACTERISTICAS :</h9>
+           <p class="card-text">La pistola m1911 es un arma secundaria la cual puede ser llevada de manera dual, es decir una en cada mano cada pistola m1911 consta de 15 balas por cargador y si llevas 2 30 balas la municion de la misma es ilimada y su daño es de 35 puntos por bala.</p>
+    </div>
+                      </div>
+                      <div class="card p-1 col-md-12 col-12 bg-transparent border border-0" ><!-- inicio Noticia 1 -->
+                        <a ><img src="img/pistolap220.webp"></a>
+           <div class="card-body">
+             <h5 class="card-title">LA PISTOLA P220</h5>
+  
+           <p class="card-text">La pistola P220 es un arma secundaria de Left 4 Dead 2, Estas vienen con el jugado al iniciar una campaña, reemplazando a la Pistola M1911, arma secundaria de Left 4 Dead. Estas pueden ser remplazadas por un arma cuerpo a cuerpo como la Katana o la Motosierra.</p>
+           <h9>CARACTERISTICAS :</h9>
+           <p class="card-text">La pistola p220 es un arma secundaria la cual puede ser llevada de manera dual, es decir una en cada mano cada pistola m1911 consta de 15 balas por cargador y si llevas 2 30 balas la municion de la misma es ilimada y su daño es de 36 puntos por bala.</p>
+    </div>
+                      </div>
+                      <div class="card p-1 col-md-12 col-12 bg-transparent border border-0" ><!-- inicio Noticia 1 -->
+                        <a ><img src="img/pistolamagnum.webp"></a>
+           <div class="card-body">
+             <h5 class="card-title">LA PISTOLA MAGNUM</h5>
+  
+           <p class="card-text">La pistola Magnum (en inglés, Magnum Pistol) es la pistola más potente de Left 4 Dead 2. Tiene un cargador de 8 balas y no es posible llevar otra en la otra mano, pero aún con todo mata de un tiro a los infectados normales en todos los modos de Juego y dificultades. Se encuentra más raramente que la pistola extra y se encuentra donde estaría esa pistola extra. A diferencia de la pistola común, su precisión y velocidad de disparo es la misma independientemente de si se dispara de pie o incapacitado.</p>
+           <h9>CARACTERISTICAS :</h9>
+           <p class="card-text">La pistola magnum es un arma secundaria la cual solo puede ser llevada de manera unitaria, es decir solo una en la mano la pistola magnum consta de 8 balas por cargador la municion de la misma es ilimada y su daño es de 80 puntos por bala.</p>
+    </div>
+                      </div>
+
+                      <h8>- CATEGORIA MELES:</h8>
+                      <div class="card p-1 col-md-12 col-12 bg-transparent border border-0" ><!-- inicio Noticia 1 -->
+                        <a ><img src="img/hachaa.webp"></a>
+           <div class="card-body">
+             <h5 class="card-title">LA HACHA</h5>
+  
+           <p class="card-text">Es una de las armas de cuerpo a cuerpo que dispondremos a lo largo de las campañas del juego y es una de las tres armas cuerpo a cuerpo que están afiladas siendo las otras la katana, el machete y la barra de hierro.</p>
+           <h9>CARACTERISTICAS :</h9>
+           <p class="card-text">Es un arma cuerpo a cuerpo con filo que hace un daño de 250 puntos tiene un delay de 0.9 segundos y tiene un rango un tanto grande.</p>
+    </div>
+                      </div>
+                      <div class="card p-1 col-md-12 col-12 bg-transparent border border-0" ><!-- inicio Noticia 1 -->
+                        <a ><img src="img/Bat.webp"></a>
+           <div class="card-body">
+             <h5 class="card-title">EL BATE DE BEISBOL</h5>
+  
+           <p class="card-text">El Bate de Béisbol (Baseball Bat en inglés) es un arma cuerpo a cuerpo que hizo su primera aparición en el Left 4 Dead 2. Originalmente el bate de béisbol era un elemento de preorden relacionado:.Si al menos un jugador en un equipo pre ordenado en el juego, esta arma aparecería en un Refugio y no desaparecería al recorgerlo. Para los jugadores que hayan descargado la actualización del mapa Defusión, el bate se encontrará al azar junto con otras armas de combate cuerpo a cuerpo que en todos los mapas del juego, y actúa como un arma cuerpo a cuerpo normal.</p>
+           <h9>CARACTERISTICAS :</h9>
+           <p class="card-text">Es un arma cuerpo a cuerpo sin filo que hace un daño de 250 puntos tiene un delay de 0.85 segundos y tiene un rango un tanto grande.</p>
+    </div>
+                      </div>
+                      <div class="card p-1 col-md-12 col-12 bg-transparent border border-0" ><!-- inicio Noticia 1 -->
+                        <a ><img src="img/Cricket.webp"></a>
+           <div class="card-body">
+             <h5 class="card-title">EL BATE DE CRICKET</h5>
+  
+           <p class="card-text">El Bate de Cricket (llamado también Bate de Remo o simplemente Remo) es un arma cuerpo a cuerpo que aparece en Left 4 Dead 2. Es el hermano del bate de beisbol.</p>
+           <h9>CARACTERISTICAS :</h9>
+           <p class="card-text">Es un arma cuerpo a cuerpo sin filo que hace un daño de 250 puntos tiene un delay de 0.85 segundos y tiene un rango un tanto grande.</p>
+    </div>
+                      </div>
+                      <div class="card p-1 col-md-12 col-12 bg-transparent border border-0" ><!-- inicio Noticia 1 -->
+                        <a ><img src="img/moto.png"></a>
+           <div class="card-body">
+             <h5 class="card-title">
+              LA MOTOSIERRA</h5>
+  
+           <p class="card-text">La motosierra (Chainsaw en ingles) es una arma cuerpo a cuerpo especial introducida en Left 4 Dead 2. Es muy efectiva al usarla contra hordas de infectados, sin embargo, su uso es limitado, ya que se usa gasolina para funcione. Su contacto corta y abate al instante tanto a infectados normales como infectados especiales, exceptuando al Tank y la Witch.</p>
+           <h9>CARACTERISTICAS :</h9>
+           <p class="card-text">Es un arma cuerpo a cuerpo con filo que hace un daño de 1000 puntos por segundo, al acabarse su barra de utilidad se bota por defecto, tiene un rango un tanto grande.</p>
+    </div>
+                      </div>
+
+                      <div class="card p-1 col-md-12 col-12 bg-transparent border border-0" ><!-- inicio Noticia 1 -->
+                        <a ><img src="img/palanca.webp"></a>
+           <div class="card-body">
+             <h5 class="card-title">LA PALANCA</h5>
+  
+           <p class="card-text">La palanca está clasificada como un arma contundente y tirará de sangre en la pantalla del usuario. Es capaz de decapitar a un infectado normal, pero también tiene la capacidad única de pelar la cara de un infectado, dejando el resto de la cabeza intacta. Es una de las muchas armas cortantes, por lo que permite desmembrar infectados con facilidad o cortar la lengua a un smoker si reaccionas rapido.</p>
+           <h9>CARACTERISTICAS :</h9>
+           <p class="card-text">Es un arma cuerpo a cuerpo con filo que hace un daño de 250 puntos tiene un delay de 0.9 segundos y tiene un rango un tanto mediano.</p>
+    </div>
+                      </div>
+                      <div class="card p-1 col-md-12 col-12 bg-transparent border border-0" ><!-- inicio Noticia 1 -->
+                        <a ><img src="img/sarten.webp"></a>
+           <div class="card-body">
+             <h5 class="card-title">LA SARTEN</h5>
+  
+           <p class="card-text">Las armas cuerpo a cuerpo reemplazan a las Pistolas en la ranura de arma secundaria. A diferencia de las Pistolas, las armas cuerpo no pueden recargarse ni se puede acabar la munición (excepto la Motosierra). Tienen dos desventajas: un alcance limitado y (con unas pocas excepciones) un tiempo de recuperación relativamente largo. Este tipo de armas causan un mínimo fuego amigo a los Supervivientes, incluso en los niveles de dificultad Avanzado e Imposible (la Motosierra es una vez más la excepción).</p>
+           <h9>CARACTERISTICAS :</h9>
+           <p class="card-text">Es un arma cuerpo a cuerpo sin filo que hace un daño de 250 puntos tiene un delay de 0.9 segundos y tiene un rango un tanto pequeño.</p>
+    </div>
+                      </div>
+                      <div class="card p-1 col-md-12 col-12 bg-transparent border border-0" ><!-- inicio Noticia 1 -->
+                        <a ><img src="img/Golfstick.webp"></a>
+           <div class="card-body">
+             <h5 class="card-title">
+              EL PALO DE GOLF</h5>
+  
+           <p class="card-text">Las armas cuerpo a cuerpo reemplazan a las Pistolas en la ranura de arma secundaria. A diferencia de las Pistolas, las armas cuerpo no pueden recargarse ni se puede acabar la munición (excepto la Motosierra). Tienen dos desventajas: un alcance limitado y (con unas pocas excepciones) un tiempo de recuperación relativamente largo. Este tipo de armas causan un mínimo fuego amigo a los Supervivientes, incluso en los niveles de dificultad Avanzado e Imposible (la Motosierra es una vez más la excepción).</p>
+           <h9>CARACTERISTICAS :</h9>
+           <p class="card-text">Es un arma cuerpo a cuerpo sin filo que hace un daño de 250 puntos tiene un delay de 0.75 segundos y tiene un rango un tanto grande.</p>
+    </div>
+                      </div>
+                      <div class="card p-1 col-md-12 col-12 bg-transparent border border-0" ><!-- inicio Noticia 1 -->
+                        <a ><img src="img/Cuchillo.webp"></a>
+           <div class="card-body">
+             <h5 class="card-title">EL CUCHILLO DE COMBATE</h5>
+  
+           <p class="card-text">El cuchillo (en inglés, Knife) era una arma oculta de Left 4 Dead 2, pues actualmente con la reciente actualización de The Last Stand fue incluida de manera nativa sin tener que usar la consola para sacarla. Es proveniente de Counter-Strike y tiene las mismas texturas.</p>
+           <h9>CARACTERISTICAS :</h9>
+           <p class="card-text">Es un arma cuerpo a cuerpo con filo que hace un daño de 250 puntos tiene un delay de 0.9 segundos y tiene un rango un tanto pequeño.</p>
+    </div>
+                      </div>
+                      <div class="card p-1 col-md-12 col-12 bg-transparent border border-0" ><!-- inicio Noticia 1 -->
+                        <a ><img src="img/Guitar.webp"></a>
+           <div class="card-body">
+             <h5 class="card-title">LA GUITARRA</h5>
+  
+           <p class="card-text">La guitarra es un arma de cuerpo a cuerpo de Left 4 Dead 2. Esta aparece en los capítulos "Feria siniestra", "La parroquia" y "Último vuelo", respectivamente. Esta arma siempre aparecerá en grandes cantidades en el escenario de el concierto de los Midnight Riders.</p>
+           <h9>CARACTERISTICAS :</h9>
+           <p class="card-text">Es un arma cuerpo a cuerpo sin filo que hace un daño de 250 puntos tiene un delay de 0.9 segundos y tiene un rango un tanto mediano.</p>
+    </div>
+                      </div>
+                      <div class="card p-1 col-md-12 col-12 bg-transparent border border-0" ><!-- inicio Noticia 1 -->
+                        <a ><img src="img/Katana.webp"></a>
+           <div class="card-body">
+             <h5 class="card-title">LA KATANA</h5>
+  
+           <p class="card-text">La Katana (también erróneamente llamada Espada Ninja por algunos de los supervivientes) es una de las armas melee del juego Left 4 Dead 2.</p>
+           <h9>CARACTERISTICAS :</h9>
+           <p class="card-text">Es un arma cuerpo a cuerpo con filo que hace un daño de 250 puntos tiene un delay de 0.75 segundos y tiene un rango un tanto largo.</p>
+    </div>
+                      </div>
+
+                      <div class="card p-1 col-md-12 col-12 bg-transparent border border-0" ><!-- inicio Noticia 1 -->
+                        <a ><img src="img/Machete.webp"></a>
+           <div class="card-body">
+             <h5 class="card-title">EL MACHETE</h5>
+  
+           <p class="card-text">El machete es un una de las armas cuerpo a cuerpo de Left 4 Dead 2.</p>
+           <h9>CARACTERISTICAS :</h9>
+           <p class="card-text">Es un arma cuerpo a cuerpo con filo que hace un daño de 250 puntos tiene un delay de 0.675 segundos y tiene un rango un tanto mediano.</p>
+    </div>
+                      </div>
+                      <div class="card p-1 col-md-12 col-12 bg-transparent border border-0" ><!-- inicio Noticia 1 -->
+                        <a ><img src="img/porra.webp"></a>
+           <div class="card-body">
+             <h5 class="card-title">LA PORRA</h5>
+  
+           <p class="card-text">La Porra de Policía es un arma cuerpo a cuerpo que aparece en Left 4 Dead 2, que puede encontrarse en el suelo o al morir un Antidisturbios.</p>
+           <h9>CARACTERISTICAS :</h9>
+           <p class="card-text">Es un arma cuerpo a cuerpo sin filo que hace un daño de 250 puntos tiene un delay de 0.65 segundos y tiene un rango un tanto pequeño.</p>
+    </div>
+                      </div>
+                      <div class="card p-1 col-md-12 col-12 bg-transparent border border-0" ><!-- inicio Noticia 1 -->
+                        <a ><img src="img/pala.webp"></a>
+           <div class="card-body">
+             <h5 class="card-title">LA PALA</h5>
+  
+           <p class="card-text">Es una arma cuerpo a cuerpo muy diferente a las demás, pues tiene una animación que ataca por los dos lados, asimismo esta es una de los pocas armas cuerpo a cuerpo que pueden aparecer estáticamente en un mismo lugar, en este caso apareciendo en la campaña The Last Stand al lado de un cuerpo sin vida.</p>
+           <h9>CARACTERISTICAS :</h9>
+           <p class="card-text">Es un arma cuerpo a cuerpo con filo que hace un daño de 250 puntos tiene un delay de 0.65 segundos y tiene un rango un tanto largo.</p>
+    </div>
+                      </div>
+                      <div class="card p-1 col-md-12 col-12 bg-transparent border border-0" ><!-- inicio Noticia 1 -->
+                        <a ><img src="img/Trincho.webp"></a>
+           <div class="card-body">
+             <h5 class="card-title">
+              EL TRINCHE</h5>
+  
+           <p class="card-text">El trinche también reconocido como la horqueta es una arma cuerpo a cuerpo que puede resultar un poco o incluso muy confuso e impredecible, esto se debe a que algunos ataques pueden mover el trinche a un lugar y otros a otro lugar, esto se produce de forma aleatorio, siendo este el mayor problema. A pesar de todo lo anterior es una buena arma cuerpo a cuerpo recomendada para pelear contra cualquier infectado.</p>
+           <h9>CARACTERISTICAS :</h9>
+           <p class="card-text">Es un arma cuerpo a cuerpo con filo que hace un daño de 250 puntos tiene un delay de 0.78 segundos y tiene un rango un tanto largo.</p>
+    </div>
+                      </div>
+<h8>- - CATEGORIA ARMAS TERCIARIAS:</h8>
+                      <div class="card p-1 col-md-12 col-12 bg-transparent border border-0" ><!-- inicio Noticia 1 -->
+                        <a ><img src="img/Molotov.webp"></a>
+           <div class="card-body">
+             <h5 class="card-title"> LA MOLOTOV</h5>
+  
+           <p class="card-text">Es muy efectiva al usarla contra hordas de infectados, sin embargo, su uso es limitado, ya que se usa gasolina para funcione. Su contacto corta y abate al instante tanto a infectados normales como infectados especiales, exceptuando al Tank y la Witch. Al quemar un infectado estara en constante fuego solo se puede apagar el fuego si hay agua alrededor. Es extraño que mientras los supervivientes los tienen en la mano el coctel no encienda ya que en la vida real si se tiene un molotov prendido mucho tiempo, puede llegar a agarrar el combustible y empezar a quemarse.</p>
+    </div>
+                      </div>
+                      <div class="card p-1 col-md-12 col-12 bg-transparent border border-0" ><!-- inicio Noticia 1 -->
+                        <a ><img src="img/Bombacasera.webp"></a>
+           <div class="card-body">
+             <h5 class="card-title">LA BOMBA CASERA</h5>
+  
+           <p class="card-text">La bomba casera (en inglés, pipe bomb) es un IED que puede usarse ofensivamente, defensivamente y con objetivos divisorios. Su radio de explosión es relativamente pequeño, con un alcance de de tres a cuatro metros en dificultad normal; sin embargo, ya que una bomba bien situada normalmente está rodeada por enemigos, puede llegar a eliminar hasta a 20. Como su explosión puede herir a un superviviente, se recomienda tener cuidado para asegurarse de que los compañeros están a una distancia segura cuando explosiona. Estas bombas pueden ser extremadamente útiles en muchas situaciones; puede usarse ofensivamente para despejar una zona, defensivamente contra una horda para separar a los enemigos de un compañero caído y con motivos divisorios para distraer a la horda en el final.</p>
+          
+    </div>
+                      </div>
+                      <div class="card p-1 col-md-12 col-12 bg-transparent border border-0" ><!-- inicio Noticia 1 -->
+                        <a ><img src="img/Bilisbomb.webp"></a>
+           <div class="card-body">
+             <h5 class="card-title">LA BILIS DE BOOMER</h5>
+  
+           <p class="card-text">La bomba de bilis (también conocido como el frasco de bilis, bilis de Boomer, frasco de vómito o simplemente vómito) es una nueva arma introducida en Left 4 Dead 2. Se mencionó por primera vez en la lista de Logros. La bomba de bilis es un frasco de cristal arrojadizo que contiene bilis verde de Boomer. Cuando se lanza, atrae a la horda donde quiera que aterrice, por lo que hay riesgo de "fuego amigo" ya que la horda ataca a cualquier infectado cubierto por la bilis. Estas bombas dan unos momentos de descanso y preparación durante una batalla. Si la frasco de bilis se usa en un espacio cerrado, atrae al lugar donde ha caído a la horda y a todos los infectados de los alrededores. Normalmente el Director hará aparecer una horda si no hay muchos infectados, y los infectados normales y poco normales ignoran a los supervivientes si el efecto todavía no ha pasado y no están en su camino, convirtiéndolos en presa fácil. Además, a los infectados normales a los que les impacte la bomba empezarán a atacarse entre sí.</p>
+          
+    </div>
+                      </div>
+                      <h8>- CATEGORIA OBJETOS CUATERNARIAS:</h8>
+                      <div class="card p-1 col-md-12 col-12 bg-transparent border border-0" ><!-- inicio Noticia 1 -->
+                        <a ><img src="img/botiquin.jpg"></a>
+           <div class="card-body">
+             <h5 class="card-title">EL BOTIQUIN</h5>
+  
+           <p class="card-text">Aparecen siempre en refugios para los supervivientes o al inicio de una campaña, si el jugador esta desangrandose (es decir sin vida estatica) despues de curarnos tendremos automaticamente 80 puntos de vida, nuestra despues de curarnos puede variar dependiendo de cuanta salud tengamos antes de curarnos. Pueden ser encontardos en varias partes de los mapas.</p>
+           
+    </div>
+                      </div>
+                      <div class="card p-1 col-md-12 col-12 bg-transparent border border-0" ><!-- inicio Noticia 1 -->
+                        <a ><img src="img/Explosiva.webp"></a>
+           <div class="card-body">
+             <h5 class="card-title">LAS BALAS EXPLOSIVAS:</h5>
+  
+           <p class="card-text">Es una municion que puede dar un stun leve a los infectados y que si se dispara por accidente a un compañero le restara mucha vida es importante para trescatar compañeros en zonas peligrosas. Los infectados pequeños o de cuerpo debil son los que reciben el stun no afecta al tank.</p>
+          
+    </div>
+                      </div>
+                      <div class="card p-1 col-md-12 col-12 bg-transparent border border-0" ><!-- inicio Noticia 1 -->
+                        <a ><img src="img/Incendiaria.webp"></a>
+           <div class="card-body">
+             <h5 class="card-title">LAS BALAS INCENDIARIAS</h5>
+  
+           <p class="card-text">Es una de los dos tipos de munición especial del juego, siendo el otro la munición explosiva. Esta munición provocará que todo enemigo que se le dispare arda en llamas, lo cual es muy útil por ejemplo en un combate contra un Tank, ya que este es muy vulnerable al fuego.</p>
+           
+    </div>
+                      </div>
+                      <div class="card p-1 col-md-12 col-12 bg-transparent border border-0" ><!-- inicio Noticia 1 -->
+                        <a ><img src="img/Defibrillator.webp"></a>
+           <div class="card-body">
+             <h5 class="card-title">EL DESFIBRILADOR</h5>
+  
+           <p class="card-text">Es uno de los items un tanto mas roto que hay aya que puedes revivir a los comapñeros que murieron, pero si estas jugando online enfrentamiento a tu equipo le restaran 25 puntos de recorrido. Es solo aconsejable usarlo si murio casi al inicio del mapa para poder recuperar esos 25 puntos caso contrario no es muy rentable. Solo suelen aparecer en lugares donde habra tank o algun evento de climax para los supervivientes.</p>
+          
+    </div>
+                      </div>
+                      <h8>- CATEGORIA OBJETOS QUINTEARIAS:</h8>
+                      <div class="card p-1 col-md-12 col-12 bg-transparent border border-0" ><!-- inicio Noticia 1 -->
+                        <a ><img src="img/pill.webp"></a>
+           <div class="card-body">
+             <h5 class="card-title">LA PILDORA</h5>
+  
+           <p class="card-text">Dan una pequeña cantidad de energia instantanea(sin tener que esperar como es el caso del botiquin)que es temporal, aparecen en cualquier lugar del mapa al lado de un cadaver en la mayoria de los casos o en una zona segura, las píldoras dan un máximo de 60 puntos de vida y cada punto de vida dura 4 segundo cada uno. Es muy recomendada si es que tienes un botiquin pero no quieres usarlo es una opcion muy buena para evitar un gasto alto.</p>
+           
+    </div>
+                      </div>
+                      <div class="card p-1 col-md-12 col-12 bg-transparent border border-0" ><!-- inicio Noticia 1 -->
+                        <a ><img src="img/adre.webp"></a>
+           <div class="card-body">
+             <h5 class="card-title">LA ADRENALINA</h5>
+  
+           <p class="card-text">Es una inyeccion que da una pequeña cantidad de puntos de vida temporales,al usarse aumenta la rapidez en todo caso(abriendo una compuerta, reviviendo a alguien,curandose , etc). Es recomendado usarla en eventos de orda o para huir de un tank o para hacer rush y ganar un poco mas puntos.</p>
+          
+    </div>
+                      </div>
+                      <div class="superr">
+                      <div class="card p-3 col-md-12 col-12 bg-transparent border border-0 " ><!-- inicio Noticia 1 -->
+                        <a ><img src="img/Gnome_model.webp"></a>
+           <div class="card-body">
+             <h5 class="card-title">EL Gnomo Chompski</h5>
+            </div>
+           <p class="card-text">El Gnomo Chompski (Alias: Fernandito) es un gnomo de jardín y un arma improvisada exclusiva a la campaña de Feria Siniestra en Left 4 Dead 2. Hizo su debut en Half Life: Episodio 2 de Valve como el Gnomo de Jardín y es tristemente famoso por otorgar al jugador el trofeo de "Enanonauta".</p>
+          
+    </div>
+                      </div>
+                </section>
+            
+                
+            </div> <!-- Fin Row -->
+        
+        
+          
+        </main> <!-- FIN Contenedor Principal -->
+        
+        <footer class="container-fluid text-center">
+        
+            <div class="row"> 
+                <div class="col-md-4 col-12 p-2">
+                  <a href="beta.html"><img src="gi.gif/parafooter.gif" ></a>
+                    </div>
+                <div class="col-md-4 col-12 p-2">
+                  <h2>TEMA</h2>
+                  <p>Left 4 Dead (abreviado como L4D) 
+                      es un videojuego cooperativo multijugador
+                      de disparos en primera persona de acción y terror. Fue desarrollado 
+                      por Valve Corporation. El juego usa
+                      el motor gráfico Source y está disponible para Microsoft Windows, 
+                      y para Xbox 360.
+                  </p>
+                    </div>
+                <div class="col-md-4 col-12 p-2">
+                  <h2> MAPA DE TIENDA FISICA PARA COMPRAR EL JUEGO</h2>
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d239.05735084537724!2d-68.1007858!3d-16.5302564!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sbo!4v1726974694180!5m2!1ses-419!2sbo"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="img-fluid w-100"></iframe>
+                    </div>
+        
+            </div>
+          
+        </footer>   
+        <div class="videito2">
+            <video autoplay loop muted plays-inline class="videito2"> 
+                <source src="videos.mp4/Left 4 Dead.mp4.mp4" type="video/mp4">
+            </video>
+        </div>
+       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    </body>
+<!--HICE AVANCES DE LA PAGINA WEB CON ALGUNAS COSAS DE LA ANTERIOR PAGINA-->
+</html>

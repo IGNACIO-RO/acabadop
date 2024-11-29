@@ -1,0 +1,287 @@
+@import "mobil.css" screen and (max-width: 1000px);/*PRACTICA 2*/
+body{
+    background-color: antiquewhite;
+}
+body{
+    margin: 0;
+}
+/*video{
+    min-width: 100%;
+    min-height: 100%;
+    top: 0%;
+    left: 0%;
+    object-fit: cover;           ANTIGUO CODIGO
+
+    transform: translateX(-50%) translateY(-50);
+
+    z-index: -1;
+}*/
+
+#contenedor, footer, header{
+    width: 1000px;
+    margin: auto;
+/* background: #995c5c;*/
+}
+header{
+    width: 1300px;                  /*para hacerlo mas grande*/
+}
+
+#logo img{width: 180px;}
+#logo{width: 17%;
+            float: left;}
+            nav{width: 80%;
+            float:left;}
+             header ul{list-style: none;}
+             header li{float: left;
+            margin: 10px 5px 10px 5px;
+            /*background-color: #746c6c;*/
+            color: rgb(255, 0, 0);
+            padding: 15px 5px 15px 5px;
+            text-transform: uppercase;
+            font-family: "Lacquer", system-ui;
+            
+  font-weight: 400;
+  font-style: normal;
+  font-size: 22px;
+            }
+           
+#parriba{width: 300px;
+    position: absolute;
+    top: 4%;
+    right: 0;
+            float: right;}
+            /*PRACTICA 3 9 SEP*/
+            .clear{ clear: both; /* eso es para el fondo de la estiqueta en este caso negro*/
+                display: block;
+            }
+            footer div { width: 33.33%;
+                float: left;
+            }
+            /*footer ul{
+
+            }
+            footer li{
+
+            }*/
+            /* AVANCE DE CUENTA PROPIA*/
+            *{
+                padding: 0;
+                margin: 0;
+                box-sizing: border-box;
+            }
+            .container{
+                width: 100%;
+                height: 100vh;
+            }
+            /*DE LOS LINKS */
+            .contentt a{
+                font-size: 23px;
+                color: rgb(0, 255, 0);
+                text-decoration: none;                              /* color de las letras de la info */
+                border: 2px solid #ffa3a3;
+                border-radius: 50px;
+                transition: 1s;
+            }
+            /*DE LOS LINKS */
+            .contentt a:hover{
+                background-color: rgb(255, 8, 0);
+                color: rgb(216, 112, 112);                      /*DE LOS LINKS */
+                font-family: "Nosifer", sans-serif;
+  font-weight: 400;
+  font-style:normal;
+  font-size: 15px;
+            }
+            .container li a{
+                color: rgb(255, 0, 0);
+            }
+             /*DE LOS LINKS */
+           /* .videito1{
+                position: absolute;
+                min-width: 100%;
+                 min-height: 100%;
+               top: 0%;
+                  left: 0%;
+                object-fit: cover;
+
+    transform: translateX(-50%) translateY(-50);
+
+    z-index: -1;
+            }*/
+            .videito2{
+                position: fixed;
+                min-width: 100%;
+                min-height: 100%;
+                top: 0%;
+                left: 0%;
+                object-fit:cover;           
+            
+                transform: translateX(-50%) translateY(-50);
+            
+                z-index: -1;
+            }
+             /* ES LO DEL TEMA*/
+            .piedepag h2{
+                color: rgb(255, 0, 0);                   
+                width: 300px;
+                font-family: "Protest Revolution", sans-serif;
+
+  font-weight: 400;
+  font-style: normal;                                                           /* ES LO DEL TEMA*/
+  font-size: 25px;
+            }
+            .piedepag p{
+                color: rgb(160, 37, 37);
+                font-family: "Protest Revolution", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+            }
+             /* ES LO DEL TEMA*/
+            .pie-de-pagina{
+                color: rgb(8, 42, 236);
+                width: 300px;
+            }
+            .contenedor{
+                color: rgb(16, 76, 155);
+            }
+            .piedepagina{
+                color: rgb(171, 243, 4);
+                font-family: "Jacques Francois Shadow", serif;
+                font-weight: 400;
+  font-style: normal;
+                font-size: 12px;                                     /*para el tamaño de la letra*/
+            }
+            .piedepagina iframe{
+                width: 270px;
+                margin: 10px 5px 10px 5px;
+                float: left;
+                height: 200px;
+            }
+            .contenedor1{
+                color: rgb(255, 255, 255);                             /*para el color de la letra que no tiene un div*/
+            }
+            .tituloxd{
+                color: rgb(82, 0, 0);
+                font-family: "Jolly Lodger", system-ui;
+                font-weight: 400;
+                font-style: normal;
+                font-size: 30px;
+                text-decoration: underline;
+            }
+            .container span{
+                font-family: "Rubik Glitch", system-ui;
+                font-weight: 400;
+                font-style: normal;
+              
+            }
+            
+           /* avanze 18 de septiembre*/
+#contenedor {
+    display: flex;
+}
+section{
+    width: 80%;
+    float: left;
+}
+aside{
+    width: 20%;
+    float: left;
+    background-color: rgba(132, 0, 255, 0.192);
+}
+article img{
+    width: 200px;
+    margin: 10px 5px 10px 5px;
+    float: left;
+}
+article h3{
+    display: block;
+    margin-bottom: 10px;
+    background: #e006060a;
+    color: rgb(255, 0, 0);
+    padding: 5px;
+    font-family: "Jolly Lodger", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px;
+
+}
+article p{
+    color: chocolate;
+}
+/* del logo de steam*/
+h1 {
+	font-size: 24px;
+	margin: 10px 0 0 0;
+	font-weight: lighter;
+	text-transform: uppercase;
+	color: #00ffaa;
+}
+
+p {
+	font-size: 15px;
+	font-weight: light;
+	color: #ff0404;
+}
+@keyframes float {
+	0% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+	50% {
+		box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+		transform: translatey(-20px);
+	}
+	100% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+}
+
+.container{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.avatar {
+	width: 160px;
+	height: 160px;
+	box-sizing: border-box;
+	border: 5px rgb(61, 40, 250) solid;
+	border-radius: 50%;
+	overflow: hidden;
+	box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+	transform: translatey(0px);
+	animation: float 6s ease-in-out infinite;
+}
+.imagendesteam img { width: 150px;}
+
+.content {
+	width: 100%;
+	max-width: 600px;
+	padding: 20px 40px;
+	box-sizing: border-box;
+	text-align: center;
+}
+/*hasta aca xd*/
+
+/*color del primer li*/
+nav ul li:first-child{
+    background-color: #acf3db00;
+}
+/* hasta aca*/
+a ul{
+    background-color: #00f729;
+}
+/*a :visited{
+    background-color: #0400ff;
+}*/
+/*p::first-letter{
+    /*background-color: aqua;*/
+    /*color: chartreuse;
+    float: left;
+    font-family: "Protest Revolution", sans-serif;
+    font-size: 120%;
+/*}
